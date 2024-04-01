@@ -12,6 +12,7 @@ import About from './components/About/About.jsx'
 import Root from './components/Root/Root.jsx'
 import LogIn from './components/LogIn/LogIn.jsx'
 import SignIn from './components/SignIn/SignIn.jsx'
+import GetStarts from './components/GetStarts/GetStarts.jsx'
 
 
 const router = createBrowserRouter([
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
       {
         path: '/sign-in',
         element: <SignIn></SignIn>
+      },
+      {
+        path: 'get-starts',
+        element: <GetStarts></GetStarts>
       }
     ]
   },

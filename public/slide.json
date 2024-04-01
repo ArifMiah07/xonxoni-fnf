@@ -1,0 +1,19 @@
+[
+    {
+      "name": "Slide 1",
+      "image": "./images/slide(1).png"
+    },
+    {
+      "name": "Slide 2",
+      "image": "./images/slide2.jpg"
+    },
+    {
+      "name": "Slide 3",
+      "image": "./images/slide3.jpg"
+    },
+    {
+      "name": "Slide 4",
+      "image": "./images/slide4.jpg"
+    }
+  ]
+  
