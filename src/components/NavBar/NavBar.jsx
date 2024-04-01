@@ -3,7 +3,7 @@ import {Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar mb-1 bg-gradient-to-r from-[#ced4da] from-10% via-[#dee2e6] via-30% to-[#ced4da] to-90% hover:from-pink-500 hover:to-yellow-500">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -11,29 +11,31 @@ const NavBar = () => {
                     </div>
                     <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                         
-                    <NavLink to="/" className={({isActive})=> isActive ? 'text-[#23BE0A] border border-[#23BE0A] rounded-xl work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'}>Home</NavLink>
-                    <NavLink to={`/meetups`} className={({isActive})=> isActive ? 'text-[#23BE0A] border border-[#23BE0A] rounded-xl work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'}>Meetups</NavLink>
-                    <NavLink to={`/members`} className={({isActive})=> isActive ? 'text-[#23BE0A] border border-[#23BE0A] rounded-xl work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'}>Members</NavLink>
-                    <NavLink to={`/blogs`} className={({isActive})=> isActive ? 'text-[#23BE0A] border border-[#23BE0A] rounded-xl work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'}>Blogs</NavLink>
-                    <NavLink to={`/about`} className={({isActive})=> isActive ? 'text-[#23BE0A] border border-[#23BE0A] rounded-xl work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'}>About</NavLink>
-                    <NavLink to={`/search`} className={({isActive})=> isActive ? 'text-[#23BE0A] border border-[#23BE0A] rounded-xl work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'}>Search</NavLink>
+                    <NavLink to="/" className={({isActive})=> isActive ? 'bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-gray-700 border border-blue-100 rounded-xl work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'}>Home</NavLink>
+                    <NavLink to={`/meetups`} className={({isActive})=> isActive ? 'bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-gray-700 border border-blue-100 rounded-xl work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'}>Meetups</NavLink>
+                    <NavLink to={`/members`} className={({isActive})=> isActive ? 'bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-gray-700 border border-blue-100 rounded-xl work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'}>Members</NavLink>
+                    <NavLink to={`/blogs`} className={({isActive})=> isActive ? 'bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-gray-700 border border-blue-100 rounded-xl work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'}>Blogs</NavLink>
+                    <NavLink to={`/about`} className={({isActive})=> isActive ? 'bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-gray-700 border border-blue-100 rounded-xl work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'}>About</NavLink>
+                    <NavLink to={`/search`} className={({isActive})=> isActive ? 'bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-gray-700 border border-blue-100 rounded-xl work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'}>Search</NavLink>
                     </ul>
                 </div>
-                <a className="btn btn-ghost font-medium text-lg lg:text-xl">XONXONI FNF</a>
+                <a className=" btn btn-ghost font-medium text-lg lg:text-xl">XONXONI FNF</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 flex gap-5 items-center ">
-                    <NavLink to={`/`} className={({isActive})=> isActive ? 'text-[#23BE0A] border border-[#23BE0A] rounded-xl work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'}>Home</NavLink>
-                    <NavLink to={`/meetups`} className={({isActive})=> isActive ? 'text-[#23BE0A] border border-[#23BE0A] rounded-xl work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'}>Meetups</NavLink>
-                    <NavLink to={`/members`} className={({isActive})=> isActive ? 'text-[#23BE0A] border border-[#23BE0A] rounded-xl work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'}>Members</NavLink>
-                    <NavLink to={`/blogs`} className={({isActive})=> isActive ? 'text-[#23BE0A] border border-[#23BE0A] rounded-xl work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'}>Blogs</NavLink>
-                    <NavLink to={`/about`} className={({isActive})=> isActive ? 'text-[#23BE0A] border border-[#23BE0A] rounded-xl work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'}>About</NavLink>
-                    <NavLink to={`/search`} className={({isActive})=> isActive ? 'text-[#23BE0A] border border-[#23BE0A] rounded-xl work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'}>Search</NavLink>
+                    <NavLink to={`/`} className={({isActive})=> isActive ? 'bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-gray-700 border border-blue-100 rounded-xl work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'}>Home</NavLink>
+                    <NavLink to={`/meetups`} className={({isActive})=> isActive ? 'bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-gray-700 border border-blue-100 rounded-xl work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'}>Meetups</NavLink>
+                    <NavLink to={`/members`} className={({isActive})=> isActive ? 'bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-gray-700 border border-blue-100 rounded-xl work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'}>Members</NavLink>
+                    <NavLink to={`/blogs`} className={({isActive})=> isActive ? 'bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-gray-700 border border-blue-100 rounded-xl work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'}>Blogs</NavLink>
+                    <NavLink to={`/about`} className={({isActive})=> isActive ? 'bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-gray-700 border border-blue-100 rounded-xl work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'}>About</NavLink>
+                    <NavLink to={`/search`} className={({isActive})=> isActive ? 'bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-gray-700 border border-blue-100 rounded-xl work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'}>Search</NavLink>
                 </ul>
             </div>
             <div className="navbar-end flex gap-3">
-                <Link to={`/log-in`}><button className="btn">Log In</button></Link>
-                <Link to={`/sign-in`}><button className="btn">Sign In</button></Link>
+                <Link to={`/log-in`}><button className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Log In</button></Link>
+                <Link to={`/sign-in`}>
+                    <button className="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Sign In</button>
+                </Link>
             </div>
         </div>
     );
