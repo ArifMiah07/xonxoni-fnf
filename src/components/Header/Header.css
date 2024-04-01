@@ -1,0 +1,10 @@
+nav a{
+    margin-right: 20px;
+}
+
+nav a.active{
+    text-decoration: underline;
+    background-color: aquamarine;
+    color: brown;
+    padding: 0px 10px;
+}
