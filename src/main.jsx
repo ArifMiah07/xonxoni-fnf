@@ -26,7 +26,8 @@ const router = createBrowserRouter([
       },
       {
         path: '/meetups',
-        element: <Meetups></Meetups>
+        element: <Meetups></Meetups>,
+        loader: ()=> fetch(`meetup-blogs.json`)
       },
       {
         path: '/members',
