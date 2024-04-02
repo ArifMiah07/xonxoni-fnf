@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Ariful Islam Arif",
+        "image": "images/members/arif.png"
+    },
+    {
+        "id": 2,
+        "name": "Sir Ali Kawsar",
+        "image": "images/members/kawsar.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Mahin Alam",
+        "image": "images/members/mahin.PNG"
+    },
+    {
+        "id": 4,
+        "name": "MD Mubarak Hossian Shuvo",
+        "image": "images/members/shuvo.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Sir Salauddin Billah",
+        "image": "images/members/salauddin.jpg"
+    },
+    {
+        "id": 6,
+        "name": "ABS Dihan",
+        "image": "images/members/dihan.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Imtiaz Ashraf",
+        "image": "images/members/imtiaz.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Minhajul Abedin Mahin",
+        "image": "images/members/minhaj.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Jobaeir Ahmed Zidan",
+        "image": "images/members/zidan.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Mamun Mirza",
+        "image": "images/members/mamun.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Shakib",
+        "image": "images/members/shakib.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Ashik",
+        "image": "images/members/ashik.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Emon",
+        "image": "images/model/cool02.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Shourov",
+        "image": "images/members/shourov.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Raj",
+        "image": "images/model/cool02.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Shishir",
+        "image": "images/model/cool02.jpg"
+    }
+]

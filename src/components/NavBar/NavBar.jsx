@@ -3,7 +3,7 @@ import {Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
     return (
-        <nav className="w-[350px] sm:w-[640px] md:w-[768px] lg:w-[1170px] mx-auto navbar mb-1 bg-gradient-to-r from-[#ced4da] from-10% via-[#dee2e6] via-30% to-[#ced4da] to-90% hover:from-pink-500 hover:to-yellow-500 border-b border-gray-400">
+        <nav className="w-[350px] sm:w-[640px] md:w-[768px] lg:w-[1216px] mx-auto navbar mb-1 bg-gradient-to-r from-[#ced4da] from-10% via-[#dee2e6] via-30% to-[#ced4da] to-90% hover:from-pink-500 hover:to-yellow-500 border-b border-gray-400">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -20,6 +20,9 @@ const NavBar = () => {
                     <NavLink to={`/log-in`} className={({isActive})=> isActive ? 'bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-gray-700 border border-blue-100 rounded-xl work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'}>Log In</NavLink>
                     <NavLink to={`/sign-in`} className={({isActive})=> isActive ? 'bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-gray-700 border border-blue-100 rounded-xl work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'}>Sign In</NavLink>
                     </ul>
+                </div>
+                <div>
+                    <img src="xfnf-logo.png" className="w-8" alt="" />
                 </div>
                 <a className=" btn btn-ghost font-medium text-lg lg:text-xl">XONXONI FNF</a>
             </div>
