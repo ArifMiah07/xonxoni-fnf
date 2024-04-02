@@ -13,6 +13,8 @@ import Root from './components/Root/Root.jsx'
 import LogIn from './components/LogIn/LogIn.jsx'
 import SignIn from './components/SignIn/SignIn.jsx'
 import GetStarts from './components/GetStarts/GetStarts.jsx'
+import MeetupBlogDetails from './components/MeetupBlogDetails/MeetupBlogDetails.jsx'
+import MeetupBlog from './components/MeetupBlog/MeetupBlog.jsx'
 
 
 const router = createBrowserRouter([
@@ -55,8 +57,17 @@ const router = createBrowserRouter([
         element: <SignIn></SignIn>
       },
       {
-        path: 'get-starts',
+        path: '/get-starts',
         element: <GetStarts></GetStarts>
+      },
+      {
+        path: '/meetups-blogs-details',
+        element: <MeetupBlogDetails></MeetupBlogDetails>,
+      },
+      {
+        path: '/meetup-blog',
+        element:  <MeetupBlog></MeetupBlog>,
+        loader: ()=> fetch(`meetup-blogs-details.json`)
       }
     ]
   },

@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 // import './MeetupBlogs.css'
 
 const MeetupBlogs = ({meetup}) => {
@@ -22,7 +23,9 @@ const MeetupBlogs = ({meetup}) => {
                             }
                         </div>
                         <div className="mt-4">
-                            <a href="#" className="text-blue-500 hover:text-blue-700">Read More</a>
+                            <Link to={`/meetup-blog`}>
+                                <button className='btn btn-primary'>Read More</button>
+                            </Link>
                         </div>
                     </div>
                 </div>

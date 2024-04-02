@@ -1,0 +1,112 @@
+[
+    {
+      "title": "XONXONI Friends & Family Meetup",
+      "date": "2024-04-02",
+      "location": "XONXONI Cafe",
+      "description": "Join us for an evening of fun, laughter, and good company at XONXONI Cafe. Meet old friends, make new ones, and enjoy delicious food and drinks in a cozy atmosphere.",
+      "tags": ["meetup", "friends", "family", "social"],
+      "img": "images/meetups/IMG-20240331-WA0005.jpg",
+      "author": "Ariful Islam Arif",
+      "id": 1,
+      "presents": "John Doe"
+    },
+    {
+      "title": "Book Club Discussion: 'The Midnight Library'",
+      "date": "2024-04-02",
+      "location": "Virtual Event",
+      "description": "Join our book club discussion on 'The Midnight Library' by Matt Haig. Share your thoughts, insights, and reactions to this thought-provoking novel in a friendly and welcoming environment.",
+      "tags": ["book club", "discussion", "novel", "literature"],
+      "img": "images/meetups/IMG-20240331-WA0006.jpg",
+      "author": "Sir Ali Kawsar",
+      "id": 2,
+      "presents": "Jane Doe"
+    },
+    {
+      "title": "Writing Workshop: Crafting Compelling Characters",
+      "date": "2024-04-02",
+      "location": "Creative Hub",
+      "description": "Learn the art of crafting compelling characters in this interactive writing workshop. Explore techniques for developing multidimensional characters that resonate with readers and bring your stories to life.",
+      "tags": ["writing", "workshop", "characters", "crafting"],
+      "img": "images/meetups/IMG-20240331-WA0007.jpg",
+      "author": "Mahin Alam",
+      "id": 3,
+      "presents": "Jessica Taylor"
+    },
+    {
+      "title": "Art Exhibition: Expressions of Identity",
+      "date": "2024-04-02",
+      "location": "Gallery XYZ",
+      "description": "Discover a diverse collection of artworks that explore themes of identity, culture, and self-expression. Join us for an evening of creativity and inspiration as we celebrate the power of art to connect and reflect the human experience.",
+      "tags": ["art", "exhibition", "identity", "culture"],
+      "img": "images/meetups/IMG-20240331-WA0008.jpg",
+      "author": "MD Mubarak Hossian Shuvo",
+      "id": 4,
+      "presents": "Sophie Adams"
+    },
+    {
+      "title": "Panel Discussion: The Future of Technology",
+      "date": "2024-04-02",
+      "location": "Patenga, sea beach",
+      "description": "Join industry experts for a thought-provoking panel discussion on the future of technology. Explore emerging trends, innovations, and challenges shaping the digital landscape and their impact on society.",
+      "tags": ["panel discussion", "technology", "future", "innovation"],
+      "img": "images/meetups/IMG-20240331-WA0016.jpg",
+      "author": "Sir Salauddin Billah",
+      "id": 5,
+      "presents": "Mark Roberts"
+    },
+    {
+      "title": "Panel Discussion: The Future of Technology",
+      "date": "2024-04-02",
+      "location": "Patenga, sea beach",
+      "description": "Join industry experts for a thought-provoking panel discussion on the future of technology. Explore emerging trends, innovations, and challenges shaping the digital landscape and their impact on society.",
+      "tags": ["panel discussion", "technology", "future", "innovation"],
+      "img": "images/meetups/IMG-20240331-WA0017.jpg",
+      "author": "ABS Dihan",
+      "id": 6,
+      "presents": "Rachel Miller"
+    },
+    {
+      "title": "Panel Discussion: The Future of Technology",
+      "date": "2024-04-02",
+      "location": "Patenga, sea beach",
+      "description": "Join industry experts for a thought-provoking panel discussion on the future of technology. Explore emerging trends, innovations, and challenges shaping the digital landscape and their impact on society.",
+      "tags": ["panel discussion", "technology", "future", "innovation"],
+      "img": "images/meetups/IMG-20240331-WA0018.jpg",
+      "author": "Imtiaz Ashraf",
+      "id": 7,
+      "presents": "Emily Clark"
+    },
+    {
+      "title": "Panel Discussion: The Future of Technology",
+      "date": "2024-04-02",
+      "location": "Patenga, sea beach",
+      "description": "Join industry experts for a thought-provoking panel discussion on the future of technology. Explore emerging trends, innovations, and challenges shaping the digital landscape and their impact on society.",
+      "tags": ["panel discussion", "technology", "future", "innovation"],
+      "img": "images/meetups/IMG-20240331-WA0019.jpg",
+      "author": "Minhajul Abedin Mahin",
+      "id": 8,
+      "presents": "David Wilson"
+    },
+    {
+      "title": "Panel Discussion: The Future of Technology",
+      "date": "2024-04-02",
+      "location": "Patenga, sea beach",
+      "description": "Join industry experts for a thought-provoking panel discussion on the future of technology. Explore emerging trends, innovations, and challenges shaping the digital landscape and their impact on society.",
+      "tags": ["panel discussion", "technology", "future", "innovation"],
+      "img": "images/meetups/IMG-20240331-WA0020.jpg",
+      "author": "Jobaeir Ahmed Zidan",
+      "id": 9,
+      "presents": "Sophie Adams"
+    },
+    {
+      "title": "Writing Workshop: Crafting Compelling Characters",
+      "date": "2024-04-02",
+      "location": "Patenga, sea beach",
+      "description": "Join industry experts for a thought-provoking panel discussion on the future of technology. Explore emerging trends, innovations, and challenges shaping the digital landscape and their impact on society.",
+      "tags": ["panel discussion", "technology", "future", "innovation"],
+      "img": "images/meetups/IMG-20240331-WA0021.jpg",
+      "author": "Mamun Mirza",
+      "id": 10,
+      "presents": "Mark Roberts"
+    }
+]

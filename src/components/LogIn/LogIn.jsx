@@ -3,7 +3,7 @@
 const LogIn = () => {
     return (
         <>
-            <section className="bg-gradient-to-r from-[#ded6d8] to-[#e5e9f0]  dark:bg-gray-900">
+            <section className="w-[350px] sm:w-[640px] md:w-[768px] lg:w-[1216px] mx-auto bg-gradient-to-r from-[#ded6d8] to-[#e5e9f0]  dark:bg-gray-900">
                 <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
                     <a href="#" className="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
                         <img className="w-8 h-8 mr-2" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/logo.svg" alt="logo" />
