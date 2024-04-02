@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Slide from "../Slide/Slide";
+// import Slide from "../Slide/Slide";
 
 
 const Features = () => {
