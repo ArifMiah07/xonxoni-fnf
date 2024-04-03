@@ -2,12 +2,12 @@
     {
       "title": "XONXONI Friends & Family Meetup",
       "date": "2024-04-02",
-      "location": "XONXONI Cafe",
+      "location": "XONXONI Cafe, Sea Beach",
       "description": "Join us for an evening of fun, laughter, and good company at XONXONI Cafe. Meet old friends, make new ones, and enjoy delicious food and drinks in a cozy atmosphere.",
       "tags": ["meetup", "friends", "family", "social"],
       "img": "images/meetups/IMG-20240331-WA0005.jpg",
       "author": "Ariful Islam Arif",
       "id": 1,
-      "presents": "John Doe"
+      "presents": ["Mahin", "Mamun", "Dihan", "Kawsar", "Raj", "Emon", "Shuvo", "Ashik", "Shakib", "Zidan", "Arif" ]
     }
 ]

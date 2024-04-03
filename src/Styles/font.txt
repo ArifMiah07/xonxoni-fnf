@@ -1,0 +1,10 @@
+*font names-
+
+lora
+rubik
+playfair-display
+dm-sans
+poppins
+source-sans-3
+inter
+roboto 

@@ -1,0 +1,62 @@
+.bgi{
+    background-image: url('images/members/kawsarCover.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.h{
+    width: 640px;
+    height: 809px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 2px solid var(--border-1, #FF00B8);
+    opacity: 0.7;
+    background: var(--gradiant-bg1, linear-gradient(180deg, #001612 0%, #628781 100%));
+}
+.text-col{
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: var(--text-color-1, linear-gradient(90deg, #00FFF0 0%, #5404FF 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.para-bol{
+    width: 550px;
+    height: 264px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid var(--border-1, #FF00B8);
+    opacity: 0.7;
+    background: var(--gradiant-bg1, linear-gradient(180deg, #001612 0%, #628781 100%));
+
+}
+.parabol-text{
+    color: #F9E7FF;
+    font-family: Lora;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 3.24px;
+}
+.gbtn{
+    width: 140px;
+    height: 59px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1px solid #3EF2FE;
+    background: linear-gradient(180deg, #0500FE 0%, #030093 100%);
+}
+.gtext{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}

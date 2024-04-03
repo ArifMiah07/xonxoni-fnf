@@ -15,6 +15,8 @@ import SignIn from './components/SignIn/SignIn.jsx'
 import GetStarts from './components/GetStarts/GetStarts.jsx'
 import MeetupBlogDetails from './components/MeetupBlogDetails/MeetupBlogDetails.jsx'
 import MeetupBlog from './components/MeetupBlog/MeetupBlog.jsx'
+import MembersPortfolio from './components/MembersPortfolio/MembersPortfolio.jsx'
+// import Member from './components/Member/Member.jsx'
 
 
 const router = createBrowserRouter([
@@ -33,8 +35,13 @@ const router = createBrowserRouter([
       },
       {
         path: '/members',
-        element: <Members></Members>,
-        loader: ()=> fetch(`members.json`)
+        element: <Members />,
+        loader: () => fetch(`members.json`),
+      },
+      {
+        path: '/membersPortfolio',
+        element: <MembersPortfolio />,
+        // loader: ({ params }) => fetch(`members.json/${params.id}`)
       },
       {
         path: '/blogs',
