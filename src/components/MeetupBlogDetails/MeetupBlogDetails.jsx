@@ -1,40 +1,20 @@
+import PropTypes from 'prop-types';
+
 const MeetupBlogDetails = ({ meetup }) => {
     const { date, title, location, description, tags, img, author, presents, id } = meetup;
     console.log(meetup);
     return (
-        <div className="grid grid-cols-6 gap-4 border border-teal-500 p-6">
-            <div className={`col-span-6 lg:col-span-6 ${id === 1 ? 'lg:col-start-1' : ''}`}>
-                {id === 1 && <img src={img} alt="" />}
-            </div>
-            <div className={`col-span-3 lg:col-span-3 ${id === 2 ? 'lg:col-start-1' : ''}`}>
-                {id === 2 && <img src={img} alt="" />}
-            </div>
-            <div className={`col-span-3 lg:col-span-3 ${id === 3 ? 'lg:col-start-1' : ''}`}>
-                {id === 3 && <img src={img} alt="" />}
-            </div>
-            <div className={`col-span-3 lg:col-span-3 ${id === 4 ? 'lg:col-start-1' : ''}`}>
-                {id === 4 && <img src={img} alt="" />}
-            </div>
-            <div className={`col-span-3 lg:col-span-3 ${id === 5 ? 'lg:col-start-1' : ''}`}>
-                {id === 5 && <img src={img} alt="" />}
-            </div>
-            <div className={`col-span-3 lg:col-span-3 ${id === 6 ? 'lg:col-start-1' : ''}`}>
-                {id === 6 && <img src={img} alt="" />}
-            </div>
-            <div className={`col-span-3 lg:col-span-3 ${id === 7 ? 'lg:col-start-1' : ''}`}>
-                {id === 7 && <img src={img} alt="" />}
-            </div>
-            <div className={`col-span-3 lg:col-span-3 ${id === 8 ? 'lg:col-start-1' : ''}`}>
-                {id === 8 && <img src={img} alt="" />}
-            </div>
-            <div className={`col-span-3 lg:col-span-3 ${id === 9 ? 'lg:col-start-1' : ''}`}>
-                {id === 9 && <img src={img} alt="" />}
-            </div>
-            <div className={`col-span-3 lg:col-span-3 ${id === 10 ? 'lg:col-start-1' : ''}`}>
-                {id === 10 && <img src={img} alt="" />}
+        <div className="w-full h-full grid grid-cols-1 grid-rows-1  gap-4 border border-teal-500">
+            <div className={`${id === 1 ? 'bg-[#C29663] col-span-3 ' : id === 2 ? 'bg-[#FF6D1C] col-span-6' : id === 3 ? 'bg-[#7763E5]' :  id === 4 ? 'bg-[#7763E5]' :  id === 5 ? 'bg-[#7763E5]' :  id === 6 ? 'bg-[#7763E5]' :  id === 7 ? 'bg-[#7763E5]' :  id === 8 ? 'bg-[#7763E5]' :  id === 9 ? 'bg-[#7763E5]' :  id === 10 ? 'bg-[#7763E5]' : ''} text-[#000]`}>
+                    {id && <img src={img} alt="" />}
             </div>
         </div>
     );
 };
 
 export default MeetupBlogDetails;
+
+MeetupBlogDetails.propTypes = {
+    meetup: PropTypes.object.isRequired // Ensure that member prop is required
+};
+

@@ -10,15 +10,15 @@ const Member = ({ member }) => {
     // const portfolio = membersPortfolios.find(portfolio => portfolio.id === intId);
 
     return (
-        <div>
-            <div className="lg:w-[400px] lg:h-[620px] ">
-                <div>
-                    <img src={member.image} alt="" />
+        <div className=''>
+            <div className="lg:w-[400px] lg:h-[620px] mb-8">
+                <div className='w-full'>
+                    <img src={member.image} className='w-fit h-fit' alt="" />
                 </div>
                 <div className="flex justify-center items-center mb-1 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">
                     <h1 className="flex items-center justify-center text-white hover:text-gray-900 text-center font-bold h-[60px]">
-                        {member.id === 2 && <Link to={`/membersPortfolio`}>
-                            {member.name}
+                        {member.id && <Link to={`/membersPortfolio`}>
+                            <span>{member.name}</span>
                         </Link>}
                     </h1>
                 </div>
