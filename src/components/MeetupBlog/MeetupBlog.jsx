@@ -19,7 +19,7 @@ const MeetupBlog = () => {
                 hello ord
                 
             </div> */}
-            <div className={`grid grid-cols-1 grid-rows-1 `}>
+            <div className={`grid grid-cols-1 grid-rows-1 drop-shadow-2xl`}>
                 {
                     meetups.map((meetup, idx)=> <div key={idx}
                     className={`w-full ${meetup.id === 1 ? 'col-span-4 row-span-4  ' : meetup.id === 2 ? 'col-span-4 row-span-4  ' : meetup.id === 3 ? 'col-span-4 row-span-4  ' : meetup.id === 9 ? 'col-span-4 row-span-4  ' :  meetup.id === 10 ? 'col-span-4 row-span-4  ' : ''}`}
@@ -28,9 +28,9 @@ const MeetupBlog = () => {
                         
                     </div>)
                 }
-                <div className="lg:w-[1000px] h-[700px] bg-blue-200 p-2 ">
+                {/* <div className="lg:w-[1000px] h-[700px] bg-blue-200 p-2 ">
                     gell
-                </div>
+                </div> */}
             </div>
                 
         </div>

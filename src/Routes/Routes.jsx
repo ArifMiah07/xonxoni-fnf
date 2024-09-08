@@ -12,6 +12,8 @@ import MeetupBlog from "../components/MeetupBlog/MeetupBlog";
 import MeetupBlogDetails from "../components/MeetupBlogDetails/MeetupBlogDetails";
 import MembersPortfolio from "../components/MembersPortfolio/MembersPortfolio";
 import Search from "../components/Search/Search";
+import SnakeGame from "../components/SnakeGameComponent/SnakeGameComponent";
+import SnakeGameCard from "../components/SnakeGameCard/SnakeGameCard";
 
 const router = createBrowserRouter([
     {
@@ -69,6 +71,14 @@ const router = createBrowserRouter([
           path: '/meetup-blog',
           element:  <MeetupBlog></MeetupBlog>,
           loader: ()=> fetch(`meetup-blogs-details.json`)
+        },
+        {
+          path: '/snakeGame',
+          element:  <SnakeGame></SnakeGame>,
+        },
+        {
+          path: '/playSnakeGame',
+          element:  <SnakeGameCard></SnakeGameCard>,
         }
       ]
     },
