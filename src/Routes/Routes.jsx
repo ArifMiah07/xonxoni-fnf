@@ -14,6 +14,8 @@ import MembersPortfolio from "../components/MembersPortfolio/MembersPortfolio";
 import Search from "../components/Search/Search";
 import SnakeGame from "../components/SnakeGameComponent/SnakeGameComponent";
 import SnakeGameCard from "../components/SnakeGameCard/SnakeGameCard";
+import TetrisGame from "../components/TetrisGameComponent/TetrisGame";
+import TetrisGameCard from "../components/TetrisGameCard/TetrisGameCard";
 
 const router = createBrowserRouter([
     {
@@ -79,6 +81,14 @@ const router = createBrowserRouter([
         {
           path: '/playSnakeGame',
           element:  <SnakeGameCard></SnakeGameCard>,
+        },
+        {
+          path: '/playTetrisGame',
+          element: <TetrisGameCard></TetrisGameCard>
+        },
+        {
+          path:'/tetrisGame',
+          element: <TetrisGame></TetrisGame>
         }
       ]
     },
