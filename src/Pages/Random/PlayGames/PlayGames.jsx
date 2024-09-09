@@ -16,6 +16,9 @@ const PlayGames = () => {
                     <Link to={'/playTetrisGame'}>
                         <button className="btn btn-secondary">Tetris</button>
                     </Link>
+                    <Link to={'/playBricksGame'}>
+                        <button className="btn btn-secondary">Bricks</button>
+                    </Link>
                     <button className="btn btn-secondary">Pac-Man</button>
                     <button className="btn btn-secondary">Minesweeper</button>
                 </div>

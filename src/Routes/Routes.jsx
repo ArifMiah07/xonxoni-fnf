@@ -16,6 +16,8 @@ import SnakeGame from "../components/SnakeGameComponent/SnakeGameComponent";
 import SnakeGameCard from "../components/SnakeGameCard/SnakeGameCard";
 import TetrisGame from "../components/TetrisGameComponent/TetrisGame";
 import TetrisGameCard from "../components/TetrisGameCard/TetrisGameCard";
+import BricksGame from "../components/BricksGameComponent/BricksGame";
+import BricksGameCard from "../components/BricksGameCard/BricksGameCrad";
 
 const router = createBrowserRouter([
     {
@@ -89,6 +91,14 @@ const router = createBrowserRouter([
         {
           path:'/tetrisGame',
           element: <TetrisGame></TetrisGame>
+        },
+        {
+          path: '/playBricksGame',
+          element: <BricksGameCard></BricksGameCard>
+        },
+        {
+          path:'/bricksGame',
+          element: <BricksGame></BricksGame>
         }
       ]
     },
