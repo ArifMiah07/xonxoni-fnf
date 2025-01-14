@@ -3,21 +3,21 @@ import Main from "../Layouts/Main/Main";
 import Home from "../Pages/Home/Home/Home";
 import Meetups from "../Pages/Meetups/Meetups";
 import Members from "../Pages/Members/Members";
-import Blogs from "../Pages/Blogs/Blogs";
-import About from "../Pages/About/About";
-import LogIn from "../Pages/Login/LogIn";
-import Register from "../Pages/Register/Register";
-import Explore from "../Pages/Explore/Explore";
+// import Blogs from "../Pages/Blogs/Blogs";
+// import About from "../Pages/About/About";
+// import LogIn from "../Pages/Login/LogIn";
+// import Register from "../Pages/Register/Register";
+// import Explore from "../Pages/Explore/Explore";
 import MeetupBlog from "../components/MeetupBlog/MeetupBlog";
 import MeetupBlogDetails from "../components/MeetupBlogDetails/MeetupBlogDetails";
-import MembersPortfolio from "../components/MembersPortfolio/MembersPortfolio";
-import Search from "../components/Search/Search";
-import SnakeGame from "../components/SnakeGameComponent/SnakeGameComponent";
-import SnakeGameCard from "../components/SnakeGameCard/SnakeGameCard";
-import TetrisGame from "../components/TetrisGameComponent/TetrisGame";
-import TetrisGameCard from "../components/TetrisGameCard/TetrisGameCard";
-import BricksGame from "../components/BricksGameComponent/BricksGame";
-import BricksGameCard from "../components/BricksGameCard/BricksGameCrad";
+// import MembersPortfolio from "../components/MembersPortfolio/MembersPortfolio";
+// import Search from "../components/Search/Search";
+// import SnakeGame from "../components/SnakeGameComponent/SnakeGameComponent";
+// import SnakeGameCard from "../components/SnakeGameCard/SnakeGameCard";
+// import TetrisGame from "../components/TetrisGameComponent/TetrisGame";
+// import TetrisGameCard from "../components/TetrisGameCard/TetrisGameCard";
+// import BricksGame from "../components/BricksGameComponent/BricksGame";
+// import BricksGameCard from "../components/BricksGameCard/BricksGameCrad";
 
 const router = createBrowserRouter([
     {
@@ -38,35 +38,35 @@ const router = createBrowserRouter([
           element: <Members />,
           loader: () => fetch(`members.json`),
         },
-        {
-          path: '/membersPortfolio',
-          element: <MembersPortfolio />,
-          // loader: ({ params }) => fetch(`members.json/${params.id}`)
-        },
-        {
-          path: '/blogs',
-          element: <Blogs></Blogs>
-        },
-        {
-          path: '/about',
-          element: <About></About>
-        },
-        {
-          path: '/search',
-          element: <Search></Search>
-        },
-        {
-          path: '/log-in',
-          element: <LogIn></LogIn>
-        },
-        {
-          path: '/sign-in',
-          element: <Register></Register>
-        },
-        {
-          path: '/get-starts',
-          element: <Explore></Explore>
-        },
+        // {
+        //   path: '/membersPortfolio',
+        //   element: <MembersPortfolio />,
+        //   // loader: ({ params }) => fetch(`members.json/${params.id}`)
+        // },
+        // {
+        //   path: '/blogs',
+        //   element: <Blogs></Blogs>
+        // },
+        // {
+        //   path: '/about',
+        //   element: <About></About>
+        // },
+        // {
+        //   path: '/search',
+        //   element: <Search></Search>
+        // },
+        // {
+        //   path: '/log-in',
+        //   element: <LogIn></LogIn>
+        // },
+        // {
+        //   path: '/sign-in',
+        //   element: <Register></Register>
+        // },
+        // {
+        //   path: '/get-starts',
+        //   element: <Explore></Explore>
+        // },
         {
           path: '/meetups-blogs-details',
           element: <MeetupBlogDetails></MeetupBlogDetails>,
@@ -76,48 +76,48 @@ const router = createBrowserRouter([
           element:  <MeetupBlog></MeetupBlog>,
           loader: ()=> fetch(`meetup-blogs-details.json`)
         },
-        {
-          path: '/snakeGame',
-          element:  <SnakeGame></SnakeGame>,
-        },
-        {
-          path: '/playSnakeGame',
-          element:  <SnakeGameCard></SnakeGameCard>,
-        },
-        {
-          path: '/playTetrisGame',
-          element: <TetrisGameCard></TetrisGameCard>
-        },
-        {
-          path:'/tetrisGame',
-          element: <TetrisGame></TetrisGame>
-        },
-        {
-          path: '/playBricksGame',
-          element: <BricksGameCard></BricksGameCard>
-        },
-        {
-          path:'/bricksGame',
-          element: <BricksGame></BricksGame>
-        }
+        // {
+        //   path: '/snakeGame',
+        //   element:  <SnakeGame></SnakeGame>,
+        // },
+        // {
+        //   path: '/playSnakeGame',
+        //   element:  <SnakeGameCard></SnakeGameCard>,
+        // },
+        // {
+        //   path: '/playTetrisGame',
+        //   element: <TetrisGameCard></TetrisGameCard>
+        // },
+        // {
+        //   path:'/tetrisGame',
+        //   element: <TetrisGame></TetrisGame>
+        // },
+        // {
+        //   path: '/playBricksGame',
+        //   element: <BricksGameCard></BricksGameCard>
+        // },
+        // {
+        //   path:'/bricksGame',
+        //   element: <BricksGame></BricksGame>
+        // }
       ]
     },
-    {
-      path: '/meetups',
-      element: <div>Im from about page, are meetup arki</div>
-    },
-    {
-      path: '/members',
-      element: <div>Iam from contact, member arki</div>
-    },
-    {
-      path: '/about',
-      element: <div>This is about page</div>
-    },
-    {
-      path: '/search',
-      element: <div>Iam from search, this <p>Thsi is from search page</p></div>
-    }
+    // {
+    //   path: '/meetups',
+    //   element: <div>Im from about page, are meetup arki</div>
+    // },
+    // {
+    //   path: '/members',
+    //   element: <div>Iam from contact, member arki</div>
+    // },
+    // {
+    //   path: '/about',
+    //   element: <div>This is about page</div>
+    // },
+    // {
+    //   path: '/search',
+    //   element: <div>Iam from search, this <p>Thsi is from search page</p></div>
+    // }
   ])
 
   export default router;

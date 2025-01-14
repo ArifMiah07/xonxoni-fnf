@@ -6,10 +6,10 @@ import { IoIosArrowBack } from "react-icons/io";
 
 const MeetupBlog = () => {
     const meetups = useLoaderData();
-    console.log(meetups, 'hi');
+    // console.log(meetups, 'hi');
     // const {date, title, loacation, description, tags, img, author, presents, id} = meetup;
     const a = meetups[0];
-    console.log(a);
+    // console.log(a);
     return (
         <div className="w-[350px] sm:w-[640px] md:w-[768px] lg:w-[1216px] mx-auto lg:p-5 border border-green-500">
             <Link to={'/meetups'}>

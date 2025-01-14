@@ -299,7 +299,7 @@ const SnakeGame = () => {
       if (head.x === food.x && head.y === food.y) {
         setScore((prevScore) => prevScore + FOOD_TYPES[food.type].points);
         setFood(generateFood(newSnake));
-        console.log('Eat sound effect');
+        // console.log('Eat sound effect');
       } else {
         newSnake.pop();
       }
@@ -388,7 +388,7 @@ const SnakeGame = () => {
     if (snake.slice(1).some((segment) => segment.x === head.x && segment.y === head.y)) {
       setGameOver(true);
       setIsPlaying(false);
-      console.log('Game over sound effect');
+      // console.log('Game over sound effect');
       if (score > highScore) {
         setHighScore(score);
         localStorage.setItem('snakeHighScore', score.toString());

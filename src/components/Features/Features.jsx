@@ -11,7 +11,7 @@ const Features = () => {
         .then(res => res.json())
         .then(data => setSlide(data))
     }, [])
-    console.log(slide)
+    // console.log(slide)
     return (
         <div>
             <section className="w-[350px] sm:w-[640px] md:w-[768px] lg:w-[1170px] mx-auto my-4 lg:my-8 border-[#d8dee9] drop-shadow-xl border rounded-lg">

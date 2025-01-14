@@ -26,7 +26,7 @@ const MeetupBlogs = ({ meetup }) => {
     };
 
     return (
-        <div className="w-full mb-4 mx-auto px-4 py-8 border border-gray-500 bg-[#eeedf3] rounded-3xl ">
+        <div className="w-full flex flex-col mb-4 mx-auto px-4 py-8 border border-gray-500 bg-[#eeedf3] rounded-3xl ">
             {/* <div>
                 <p></p>
                 <p></p>
@@ -41,9 +41,9 @@ const MeetupBlogs = ({ meetup }) => {
             <div className="">
                 {/* Blog Cards */}
                 <div className="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src={img} alt="Blog Thumbnail" className="w-full h-48 object-cover object-center" />
+                    <img src={img} alt="Blog Thumbnail" className="w-full h-64 object-cover object-center" />
                     <div className="p-4">
-                        <h2 className="text-xl font-semibold mb-2 playfair-display mb-4">{title}<span><sup>{id}</sup></span> </h2>
+                        <h2 className="text-xl font-semibold playfair-display mb-4">{title}<span><sup>{id}</sup></span> </h2>
                         <p className="text-gray-600 my-4"><span className='p-2 bg-[#62fcaf] hover:bg-[#0cabba] hover:px-3 hover:font-semibold'>{author}</span> | <span className='font-semibold text-[#7bae37]'>{date}</span></p>
                         <p className="mt-2 text-gray-500 inter ">{description}...</p>
                         <div className='w-fit flex my-2 gap-2'>

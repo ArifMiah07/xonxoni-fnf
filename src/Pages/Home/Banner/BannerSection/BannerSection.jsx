@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import './BannerSection.css'
 
 const BannerSection = () => {
@@ -11,9 +11,9 @@ const BannerSection = () => {
                 <div className="max-w-md">
                     <h1 className="mb-5 text-5xl font-bold"><span className="text-red-600">XON</span>XONI FRIENDS & <span className="text-green-600">FAMILY</span></h1>
                     <p className="mb-5"><span>Welcome to XONXONI F&F, the haven for creative minds, adventurous spirits, hopeless romantics, intellects, brave hearts, and unique friendships.</span></p>
-                    <Link to={`get-starts`}>
                     <button className="btn bg-gradient-to-r from-[#ced4da] from-10% via-[#dee2e6] via-30% to-[#ced4da] to-90% hover:from-pink-500 hover:to-yellow-500">Get Started</button>
-                    </Link>
+                    {/* <Link to={`get-starts`}>
+                    </Link> */}
                 </div>
                 </div>
             </div>
